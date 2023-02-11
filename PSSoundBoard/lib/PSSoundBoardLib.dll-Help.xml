@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<helpItems schema="maml" xmlns="http://msh">
+  <!-- Cmdlet: Start-SBEffect -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Start-SBEffect</command:name>
+      <command:verb>Start</command:verb>
+      <command:noun>SBEffect</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Start-SBEffect</maml:name>
+        <!-- Parameter: Path -->
+        <command:parameter required="true" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Path</maml:name>
+          <command:parameterValue required="true">string</command:parameterValue>
+          <dev:type>
+            <maml:name>System.String</maml:name>
+            <maml:uri />
+          </dev:type>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <!-- Parameter: Path -->
+      <command:parameter required="true" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Path</maml:name>
+        <command:parameterValue required="true">string</command:parameterValue>
+        <dev:type>
+          <maml:name>System.String</maml:name>
+          <maml:uri />
+        </dev:type>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Resume-SBMusic -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Resume-SBMusic</command:name>
+      <command:verb>Resume</command:verb>
+      <command:noun>SBMusic</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Resume-SBMusic</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Start-SBMusic -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Start-SBMusic</command:name>
+      <command:verb>Start</command:verb>
+      <command:noun>SBMusic</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Start-SBMusic</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Stop-SBMusic -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Stop-SBMusic</command:name>
+      <command:verb>Stop</command:verb>
+      <command:noun>SBMusic</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Stop-SBMusic</maml:name>
+        <!-- Parameter: Dispose -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Dispose</maml:name>
+          <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <!-- Parameter: Dispose -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Dispose</maml:name>
+        <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Suspend-SBMusic -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Suspend-SBMusic</command:name>
+      <command:verb>Suspend</command:verb>
+      <command:noun>SBMusic</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Suspend-SBMusic</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Set-SBMusicPlayer -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Set-SBMusicPlayer</command:name>
+      <command:verb>Set</command:verb>
+      <command:noun>SBMusicPlayer</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Set-SBMusicPlayer</maml:name>
+        <!-- Parameter: Volume -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Volume</maml:name>
+          <command:parameterValue required="true">double</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Double</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>0</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <!-- Parameter: Volume -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Volume</maml:name>
+        <command:parameterValue required="true">double</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Double</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>0</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Set-SBPlaylist -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Set-SBPlaylist</command:name>
+      <command:verb>Set</command:verb>
+      <command:noun>SBPlaylist</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Set-SBPlaylist</maml:name>
+        <!-- Parameter: Playlist -->
+        <command:parameter required="true" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Playlist</maml:name>
+          <command:parameterValue required="true">string[]</command:parameterValue>
+          <dev:type>
+            <maml:name>System.String[]</maml:name>
+            <maml:uri />
+          </dev:type>
+        </command:parameter>
+        <!-- Parameter: Repeat -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Repeat</maml:name>
+          <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+        <!-- Parameter: Shuffle -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Shuffle</maml:name>
+          <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <!-- Parameter: Playlist -->
+      <command:parameter required="true" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Playlist</maml:name>
+        <command:parameterValue required="true">string[]</command:parameterValue>
+        <dev:type>
+          <maml:name>System.String[]</maml:name>
+          <maml:uri />
+        </dev:type>
+      </command:parameter>
+      <!-- Parameter: Repeat -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Repeat</maml:name>
+        <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+      <!-- Parameter: Shuffle -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Shuffle</maml:name>
+        <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Skip-SBTrack -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Skip-SBTrack</command:name>
+      <command:verb>Skip</command:verb>
+      <command:noun>SBTrack</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: __AllParameterSets -->
+      <command:syntaxItem>
+        <maml:name>Skip-SBTrack</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+  <!-- Cmdlet: Set-SBVolume -->
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+    <command:details>
+      <command:name>Set-SBVolume</command:name>
+      <command:verb>Set</command:verb>
+      <command:noun>SBVolume</command:noun>
+    </command:details>
+    <command:syntax>
+      <!-- Parameter set: SetVolume -->
+      <command:syntaxItem>
+        <maml:name>Set-SBVolume</maml:name>
+        <!-- Parameter: EffectsVolume -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>EffectsVolume</maml:name>
+          <command:parameterValue required="true">double</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Double</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>0</dev:defaultValue>
+        </command:parameter>
+        <!-- Parameter: MusicVolume -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>MusicVolume</maml:name>
+          <command:parameterValue required="true">double</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Double</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>0</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <!-- Parameter set: Mute -->
+      <command:syntaxItem>
+        <maml:name>Set-SBVolume</maml:name>
+        <!-- Parameter: Mute -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Mute</maml:name>
+          <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+      <!-- Parameter set: Unmute -->
+      <command:syntaxItem>
+        <maml:name>Set-SBVolume</maml:name>
+        <!-- Parameter: Unmute -->
+        <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+          <maml:name>Unmute</maml:name>
+          <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+          <dev:type>
+            <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+            <maml:uri />
+          </dev:type>
+          <dev:defaultValue>False</dev:defaultValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <!-- Parameter: MusicVolume -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>MusicVolume</maml:name>
+        <command:parameterValue required="true">double</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Double</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>0</dev:defaultValue>
+      </command:parameter>
+      <!-- Parameter: EffectsVolume -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>EffectsVolume</maml:name>
+        <command:parameterValue required="true">double</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Double</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>0</dev:defaultValue>
+      </command:parameter>
+      <!-- Parameter: Mute -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Mute</maml:name>
+        <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+      <!-- Parameter: Unmute -->
+      <command:parameter required="false" globbing="false" pipelineInput="false" position="named">
+        <maml:name>Unmute</maml:name>
+        <command:parameterValue required="true">SwitchParameter</command:parameterValue>
+        <dev:type>
+          <maml:name>System.Management.Automation.SwitchParameter</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>False</dev:defaultValue>
+      </command:parameter>
+    </command:parameters>
+    <command:inputTypes />
+    <command:returnValues />
+  </command:command>
+</helpItems>

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSSoundBoardLib</name>
+    </assembly>
+    <members>
+        <member name="T:PSSoundBoardLib.ISoundBoardPlayer">
+            <summary>
+            Defines the interface of a media player compatible with the SoundBoard class.
+            </summary>
+        </member>
+        <member name="T:PSSoundBoardLib.SoundBoard">
+            <summary>
+            The SoundBoard is a singleton class responsible for handling music and sound effects together.
+            It ensures music plays on repeat, can be shuffled, and that sound effects can be heard by
+            reducing the volume on the music player until the sound effect has finished.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.MusicPlayer">
+            <summary>
+            Provides direct access to the SoundBoardPlayer instance controlling music playback.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.EffectsPlayer">
+            <summary>
+            Provides direct access to the SoundBoardPlayerPool instance controlling music playback.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.MusicVolume">
+            <summary>
+            Updates the music volume on the MusicPlayer MediaPlayer instance.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.EffectsVolume">
+            <summary>
+            Updates the effects volume on the EffectsPlayer pool of MediaPlayer instances.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.Repeat">
+            <summary>
+            Enables repeat of the music in the playlist.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.Shuffle">
+            <summary>
+            Shuffles songs in the playlist when set to true or returns the order to the original playlist order when set to false.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.Playlist">
+            <summary>
+            Provides access to add or remove items from the music playlist.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.PlayMusic">
+            <summary>
+            Plays the current song in the MusicPlayer playlist.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.PlayEffect(System.Uri)">
+            <summary>
+            Plays a sound effect by passing the resource Uri. If music is playing, the volume will be reduced to 10% of the original volume until the effect is finished.
+            </summary>
+            <param name="source">A Uri referencing a local sound file ideally.</param>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.StopMusic">
+            <summary>
+            Call Stop() on the MusicPlayer MediaPlayer instance.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.PauseMusic">
+            <summary>
+            Call Pause() on the MusicPlayer MediaPlayer instance.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.UnpauseMusic">
+            <summary>
+            Call Play() on the MusicPlayer MediaPlayer instance.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.NextTrack">
+            <summary>
+            Load the next song in the playlist or stop playing music on the MusicPlayer MediaPlayer instance.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.PreviousTrack">
+            <summary>
+            Plays the previous song in the playlist, or if more than 5 seconds have elapsed since the start of the current song, the current song is played from the beginning.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.MuteMusic">
+            <summary>
+            Sets MusicPlayer volume to zero.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.UnmuteMusic">
+            <summary>
+            Returns MusicPlayer volume to original level.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.MuteEffects">
+            <summary>
+            Sets EffectsPlayer volume to zero.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.UnmuteEffects">
+            <summary>
+            Returns EffectsPlayer volume to original level.
+            </summary>
+        </member>
+        <member name="M:PSSoundBoardLib.SoundBoard.Dispose">
+            <summary>
+            Dispose of all MediaPlayer instances and set SoundBoard.Instance to null.
+            </summary>
+        </member>
+        <member name="P:PSSoundBoardLib.SoundBoard.Instance">
+            <summary>
+            Provides access to a singleton instance of the SoundBoard class and initializes a new one if necessary.
+            </summary>
+        </member>
+    </members>
+</doc>

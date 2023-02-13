@@ -6,6 +6,19 @@ This is a very basic sample of a WPF-based user interface invoking PSSoundBoard
 cmdlets to play, pause, and skip tracks, play sound effects, and control volume
 of music and effects independently.
 
+![Screenshot of PSJukeBox sample](screenshot.png)
+
+## Usage
+
+To test this sample UI, import the module and call `Start-PSJukeBox`:
+
+```powershell
+Import-Module PSJukeBox.psm1
+Start-PSJukeBox
+```
+
+## Known issues
+
 While creating this sample there were some obvious areas of improvement:
 
 - It would be nice to have a cmdlet to retrieve current media player state which

@@ -54,3 +54,8 @@ Stop-SBMusic
 # Start from the beginning of the last track
 Resume-SBMusic
 ```
+
+## Attributions
+
+The music and sound effects used in the PSJukeBox sample WPF application were
+obtained from [Zapsplat.com](https://www.zapsplat.com).

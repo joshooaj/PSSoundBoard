@@ -6,7 +6,7 @@ This is a very basic sample of a WPF-based user interface invoking PSSoundBoard
 cmdlets to play, pause, and skip tracks, play sound effects, and control volume
 of music and effects independently.
 
-![Screenshot of PSJukeBox sample](screenshot.png)
+[![Watch the video](https://img.youtube.com/vi/82JFh6M82dI/hqdefault.jpg)](https://youtu.be/82JFh6M82dI)
 
 ## Usage
 

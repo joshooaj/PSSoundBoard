@@ -17,6 +17,13 @@ proper audio mixing equipment. So if I've used terminology incorrectly or if
 there's a much better way to handle sound, please feel free to let me know by
 opening an issue.
 
+## PSJukeBox demo
+
+The PSJukeBox subfolder contains a demo WPF app written in PowerShell to show
+how music and sound effects can be controlled from a UI.
+
+[![Watch the video](https://img.youtube.com/vi/82JFh6M82dI/hqdefault.jpg)](https://youtu.be/82JFh6M82dI)
+
 ## Usage
 
 There are only a handful of cmdlets in this module - here's how you can use it

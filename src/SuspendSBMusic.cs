@@ -2,12 +2,12 @@
 
 namespace PSSoundBoardLib
 {
-    [Cmdlet(VerbsLifecycle.Suspend, "SBMusic")]
-    public class SuspendSBMusic : PSCmdlet
+  [Cmdlet(VerbsLifecycle.Suspend, "SBMusic")]
+  public class SuspendSBMusic : PSCmdlet
+  {
+    protected override void ProcessRecord()
     {
-        protected override void ProcessRecord()
-        {
-            SoundBoard.Instance.PauseMusic();
-        }
+      SoundBoard.Instance.PauseMusic();
     }
+  }
 }
